@@ -1,0 +1,26 @@
+.newsletter-content-card {
+  margin-left: 5%;
+}
+
+.newsletter-content {
+  max-width: 70%;
+  margin-top: 10%;
+  padding-left: 50px;
+}
+
+.newsletter-content p {
+  color: #eedacb;
+}
+
+.newsletter-content__title {
+  font-size: 21px;
+}
+
+.newsletter-content h2 {
+  color: #d1898b;
+  font-size: 40px;
+}
+
+.newsletter-content__text {
+  font-size: 29px;
+}

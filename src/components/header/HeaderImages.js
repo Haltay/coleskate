@@ -1,9 +1,9 @@
 import React from "react";
 
 import Logo from "../../assets/header/cole_skateboard.png";
-import Company from "../../assets/header/cole_type_reverse.png";
+import Company from "../../assets/header/skate_type.png";
 
-import "./ImagesHeader.css";
+import "./HeaderImages.css";
 
 const ImagesHeader = () => {
   return (

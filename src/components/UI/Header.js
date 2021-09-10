@@ -1,9 +1,9 @@
 import React from "react";
 
 
-import ImagesHeader from "../header/ImagesHeader";
-import ContentHeader from "../header/ContentHeader";
-import LearnMoreHeader from "../header/LearnMoreHeader";
+import ImagesHeader from "../header/HeaderImages";
+import ContentHeader from "../header/HeaderContent";
+import LearnMoreHeader from "../header/HeaderLearnMore";
 
 import "./Header.css";
 
