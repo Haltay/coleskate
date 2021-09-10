@@ -1,6 +1,6 @@
 import React from "react";
 
-import './LearnMoreHeader.css';
+import './LearnMoreHeader.css'
 
 const LearnMoreHeader = () => {
   return (

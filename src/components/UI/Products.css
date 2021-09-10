@@ -1,0 +1,15 @@
+.product-title {
+  text-align: center;
+}
+
+.product-cards {
+    display: flex;
+}
+
+.product-card-content {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px red solid;
+}
+
