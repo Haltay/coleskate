@@ -1,15 +1,8 @@
-.product-title {
-  text-align: center;
+.product {
+  margin-bottom: 10%;
+  background: #f0f3f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-.product-cards {
-    display: flex;
-}
-
-.product-card-content {
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px red solid;
-}
-

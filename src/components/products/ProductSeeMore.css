@@ -1,9 +1,10 @@
-.header-learn-more {
+.product-see-more {
   margin: 5% auto 10% auto;
+
 }
 
-.header-more1 {
-  border: pink 1px solid;
+.product-more1 {
+  border: #D1898B 1px solid;
   width: 166px;
   height: 43px;
   position: relative;
@@ -11,21 +12,21 @@
   left: 15px;
 }
 
-.header-more2 {
+.product-more2 {
   display: flex;
   margin: 20px;
-  border: pink 1px solid;
+  border: #D1898B 1px solid;
   width: 165px;
   height: 43px;
   position: relative;
   bottom: 70px;
 }
 
-.header-more2 a {
+.product-more2 a {
   font-family: "Open Sans", sans-serif;
-  color: #eedacb;
+  color: #D49698;  
   font-size: 17px;
   text-decoration: none;
-  padding-left: 30px;
+  padding-left: 40px;
   padding-top: 5px;
 }

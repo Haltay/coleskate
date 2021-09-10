@@ -1,0 +1,14 @@
+.product-title {
+    text-align: center;
+  }
+  
+  .product-title__top {
+      font-family: "Open Sans", sans-serif;
+      font-size: 17px;
+  }
+  
+  .product-title__bottom {
+      font-family: "Poppins", sans-serif;
+      color: #D1898B;
+      font-size: 37px;   
+  }
