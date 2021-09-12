@@ -2,6 +2,8 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
+  
 }
 
 #menuToggle {
@@ -16,42 +18,7 @@
 
   -webkit-user-select: none;
   user-select: none;
-}
-.menu-logo {
-    margin-top: -71px;
-    margin-bottom: 50px;
-}
-
-.menu-logo__image {
-    height: 28px;
-}
-
-.menu-content {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
-
-#menuToggle a {
-  font-family: "Poppins", sans-serif;
-  color: #eedacb;
-  text-decoration: none;
-
-  transition: color 0.3s ease;
-}
-
-#menuToggle a:hover {
-  color: #d1898b;
-}
-
-#menuToggle a div {
-  font-size: 37px;
-  margin-bottom: 5%;
-}
-
-#menuToggle a div:hover {
-  display: inline-block;
-  border-bottom: #d1898b 2px solid;
+  
 }
 
 .menu-hamburger {
@@ -63,15 +30,12 @@
   left: -5px;
 
   cursor: pointer;
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0;
+  z-index: 2;
 
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
 #menuToggle span {
   display: block;
   width: 33px;
@@ -90,7 +54,6 @@
     background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
 
-
 #menuToggle span:first-child {
   transform-origin: 0% 0%;
 }
@@ -99,61 +62,24 @@
   transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #eedacb;
 }
 
-/*
- * But let's hide the middle one.
- */
 #menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
 #menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-#menu {
-  position: absolute;
-  width: 500px;
-  margin: -60% 0 0 -310%;
-  padding: 50px;
-  padding-top: 125px;
 
-  background: #1c1c1c;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
 
-  transform-origin: 0% 0%;
-  transform: translate(100%, 0);
-
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-}
-
-#menu li {
-  padding: 10px 0;
-  font-size: 22px;
-}
-
-/*
- * And let's slide it in from the left
- */
 #menuToggle input:checked ~ ul {
   transform: none;
 }
+
