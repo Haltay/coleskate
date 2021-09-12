@@ -1,8 +1,10 @@
 .social-media-background {
-  background-color: #EBEBEB;
+  background: #ebebeb;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10%;
+  padding-bottom: 3%;
 }
+
+

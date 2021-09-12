@@ -1,8 +1,9 @@
 .product {
-  margin-bottom: 10%;
-  background: #f0f3f4;
+  background-color: #f0f3f4;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: -10%;
 }
+

@@ -6,9 +6,9 @@ import "./SocialMedia.css";
 
 const SocialMedia = () => {
   return (
-  <div className="social-media-background">
-    <SocialMediaCard />
-  </div>
+    <div className="social-media-background">
+      <SocialMediaCard />
+    </div>
   );
 };
 

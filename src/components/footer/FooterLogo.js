@@ -6,7 +6,7 @@ import "./FooterLogo.css";
 
 const FooterLogo = () => {
   return (
-    <div>
+    <div className="footer-middle">
       <img
         src={FooterImage}
         className="footer-logo"

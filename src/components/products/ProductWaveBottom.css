@@ -1,0 +1,5 @@
+.wave-product-bottom {
+  width: 100%;
+  margin-bottom: -8%;
+  transform: rotate(180deg);
+}
