@@ -1,6 +1,6 @@
 import React from "react";
 
-import './ProductSeeMore.css'
+import "./ProductSeeMore.css";
 
 const ProductSeeMore = () => {
   return (

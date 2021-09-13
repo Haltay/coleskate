@@ -1,6 +1,6 @@
 import React from "react";
 
-import MenuLogo from "../../assets/navbar/cole_type.png";
+import NavbarLogo from "../Navbar/NavbarLogo";
 
 import NavbarMenu from "../Navbar/NavbarMenu";
 
@@ -9,12 +9,9 @@ import "./Navabar.css";
 const Navbar = () => {
   return (
     <div className="navbar">
+
       <div className="menu-logo-left">
-        <img
-          src={MenuLogo}
-          className="menu-logo__image"
-          alt="menu-logo-cole-skate"
-        />
+      <NavbarLogo />
       </div>
 
       <div id="menuToggle">

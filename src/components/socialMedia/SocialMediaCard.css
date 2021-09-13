@@ -1,12 +1,19 @@
+.social-media {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
 .social-media-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 50px; 
 }
 
 .social-media-content {
-  width: 35%;
+  width: 40%;
+  padding-right: 4%;
 }
 
 .social-media-content h2 {
@@ -22,9 +29,15 @@
   text-align: justify;
 }
 
-.social-media-content a {
+.social-media-link {
   color: #d1898b;
   font-size: 17px;
+  transition: transform 0.1s;
+  z-index: 8;
+}
+
+.social-media-link:hover {
+  transform: scale(1.2);
 }
 
 .social-media-image {
@@ -61,4 +74,5 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
+  padding-left: -50px;
 }

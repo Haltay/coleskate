@@ -1,9 +1,14 @@
 .header-learn-more {
-  margin: 5% auto 10% auto;
+  margin: 4% auto 10% auto;
+  transition: transform 0.1s;
+}
+
+.header-learn-more:hover {
+  transform: scale(1.2);
 }
 
 .header-more1 {
-  border: pink 1px solid;
+  border: #d1898b 1px solid;
   width: 166px;
   height: 43px;
   position: relative;
@@ -14,7 +19,7 @@
 .header-more2 {
   display: flex;
   margin: 20px;
-  border: pink 1px solid;
+  border: #d1898b 1px solid;
   width: 165px;
   height: 43px;
   position: relative;

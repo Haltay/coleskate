@@ -7,7 +7,7 @@ import "./SocialMediaCard.css";
 
 const SocialMediaCard = () => {
   return (
-    <>
+    <div className="social-media">
       <div className="social-media-card">
         <div className="social-media-content">
           <h2>INTERVIEW WITH DEAWON SONG</h2>
@@ -15,7 +15,7 @@ const SocialMediaCard = () => {
             We got to sit with Daewon at the London premier for a chat on "whate
             eles is out there"
           </p>
-          <a href="/">READ MORE</a>
+          <a href="/" className="social-media-link">READ MORE</a>
         </div>
 
         <div className="social-media-image">
@@ -34,7 +34,7 @@ const SocialMediaCard = () => {
             Follow us on instagram for the latest tricks from the best skaters
             around the globe!
           </p>
-          <a href="/">FOLLOW US</a>
+          <a href="/" className="social-media-link">FOLLOW US</a>
         </div>
 
         <div className="social-media-image">
@@ -45,7 +45,7 @@ const SocialMediaCard = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

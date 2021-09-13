@@ -8,7 +8,7 @@ const NewsletterContent = () => {
     <div className="newsletter-content-card">
       <div className="newsletter-content">
         <p className="newsletter-content__title">NEWSLETTER</p>
-        <h2>STAY IN TOUCH</h2>
+        <h2>STAY IN TOUCH!</h2>
         <p className="newsletter-content__text">
           Get the latest deals, news and gear from ColeSkate Co!
         </p>

@@ -1,10 +1,14 @@
 .product-see-more {
-  margin: 5% auto 2% auto;
+  margin: 5% auto -2% auto;
+  transition: transform 0.1s;
+}
 
+.product-see-more:hover {
+  transform: scale(1.2);
 }
 
 .product-more1 {
-  border: #D1898B 1px solid;
+  border: #d1898b 1px solid;
   width: 166px;
   height: 43px;
   position: relative;
@@ -15,7 +19,7 @@
 .product-more2 {
   display: flex;
   margin: 20px;
-  border: #D1898B 1px solid;
+  border: #d1898b 1px solid;
   width: 165px;
   height: 43px;
   position: relative;
@@ -24,7 +28,7 @@
 
 .product-more2 a {
   font-family: "Open Sans", sans-serif;
-  color: #D49698;  
+  color: #d49698;
   font-size: 17px;
   text-decoration: none;
   padding-left: 40px;

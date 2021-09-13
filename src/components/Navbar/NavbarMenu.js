@@ -1,8 +1,8 @@
 import React from "react";
 
-import MenuLogo from "../../assets/navbar/cole_type.png";
-
+import NavbarLogo from "./NavbarLogo";
 import FooterListRight from "../footer/FooterListRight";
+
 
 import "./NavbarMenu.css";
 
@@ -10,11 +10,7 @@ const NavbarMenu = () => {
   return (
     <ul id="menu">
       <div className="menu-logo">
-        <img
-          src={MenuLogo}
-          className="menu-logo__image"
-          alt="menu-logo-cole-skate"
-        />
+      <NavbarLogo />
       </div>
 
       <div className="menu-content">

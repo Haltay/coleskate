@@ -1,10 +1,11 @@
 .header-content h1 {
   text-align: center;
+  margin-top: 6%;
 }
 
 .header-content-title {
   font-family: "Poppins", sans-serif;
-  color: pink;
+  color: #d1898b;
   font-size: 44px;
 }
 
