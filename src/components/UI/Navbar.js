@@ -9,9 +9,8 @@ import "./Navabar.css";
 const Navbar = () => {
   return (
     <div className="navbar">
-
       <div className="menu-logo-left">
-      <NavbarLogo />
+        <NavbarLogo />
       </div>
 
       <div id="menuToggle">

@@ -13,7 +13,9 @@ const NewsletterContent = () => {
           Get the latest deals, news and gear from ColeSkate Co!
         </p>
       </div>
-      <NewsletterSubscribe />
+      <div>
+        <NewsletterSubscribe />
+      </div>
     </div>
   );
 };

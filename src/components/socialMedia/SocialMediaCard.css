@@ -30,6 +30,10 @@
   text-align: justify;
 }
 
+.social-media-image-sm {
+  display: none;
+}
+
 .social-media-link {
   color: #d1898b;
   font-size: 17px;
@@ -76,18 +80,12 @@
 /* Animation Links */
 
 .social-media-animation {
-  background-color: #ebebeb;
-  text-align: start;
-
-  width: 120px;
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-.social-media-animation {
-  cursor: pointer;
   display: inline-block;
   position: relative;
+  text-align: start;
+  width: 120px;
+  background-color: #ebebeb;
+  cursor: pointer;
   transition: 0.5s;
 }
 
@@ -99,7 +97,6 @@
   opacity: 0;
   top: -12px;
   right: -40px;
-  transition: 0.5s;
 }
 
 .social-media-animation:hover {
@@ -110,4 +107,50 @@
 .social-media-animation:hover:after {
   opacity: 1;
   right: 10px;
+}
+
+@media only screen and (max-width: 768px) and (max-width: 1388px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .social-media {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-media-card {
+    display: block;
+  }
+
+  .social-media-card2 {
+    display: block;
+  }
+
+  .social-media-content {
+    width: 100%;
+  }
+
+  .social-media-content h2 {
+    font-size: 37px;
+    text-align: center;
+  }
+
+  .social-media-image-sm {
+    display: block;
+    width: 100%;
+    height: 70%;
+  }
+
+  .social-media-image {
+    display: none;
+  }
+  .social-media-image__interview {
+    max-height: 300px;
+  }
+  .social-media-image__instagram {
+    max-height: 300px;
+  }
 }

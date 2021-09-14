@@ -13,3 +13,30 @@
   margin-right: auto;
   margin-top: 27px;
 }
+
+@media only screen and (max-width: 768px) and (max-width: 1388px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .header-images {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: -5%;
+  }
+  .header-logo {
+    margin-left: 5%;
+    margin-right: -15%;
+  }
+  .header-company {
+    padding-top: 15%;
+  }
+
+  .header-logo__image {
+    width: 30%;
+  }
+
+  .header-company__image {
+    width: 30%;
+  }
+}

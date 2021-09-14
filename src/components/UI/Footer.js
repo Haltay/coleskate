@@ -9,6 +9,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
+    
       <FooterListLeft />
       <FooterLogo />
       <FooterListRight />

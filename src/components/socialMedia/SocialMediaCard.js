@@ -12,9 +12,18 @@ const SocialMediaCard = () => {
         <div className="social-media-content">
           <h2>INTERVIEW WITH DEAWON SONG</h2>
           <p>
-            We got to sit with Daewon at the London premier for a chat on "whate
-            eles is out there"
+            We got to sit with Daewon at the London premiere for a chat on "what
+            else is out there"
           </p>
+
+          <div className="social-media-image-sm">
+          <img
+            src={ImageInterview}
+            className="social-media-image__interview"
+            alt="interview-daewon-song"
+          />
+        </div>
+
           <div className="social-media-animation">
             <a href="/" className="social-media-link">
               READ MORE
@@ -38,6 +47,15 @@ const SocialMediaCard = () => {
             Follow us on instagram for the latest tricks from the best skaters
             around the globe!
           </p>
+
+          <div className="social-media-image-sm">
+          <img
+            src={ImageInstagram}
+            className="social-media-image__instagram"
+            alt="interview-daewon-song"
+          />
+        </div>
+
           <div className="social-media-animation">
             <a href="/" className="social-media-link">
               FOLLOW US

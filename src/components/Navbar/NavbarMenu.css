@@ -28,18 +28,23 @@
   transition: color 0.3s ease;
   font-size: 37px;
   margin-top: 100px;
-  font-family: "Poppins", sans-serif;
-  color: #eedacb;
 }
 
 .menu-content-text {
   margin-bottom: 40px;
 }
 
-.menu-content-text:hover {
+.menu-content-text a {
+  text-decoration: none;
+  color: #eedacb;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu-content-text a:hover {
+  height: 45px;
   display: inline-block;
   color: #d1898b;
-  border-bottom: #d1898b 1px solid;
+  border-bottom: #d1898b 2px solid;
 }
 
 .menu-bottom .footer-list {
@@ -52,4 +57,25 @@
 
 .menu-bottom .footer-list a {
   color: #d1898b;
+}
+
+@media only screen and (max-width: 768px) and (max-width: 1388px) {
+}
+
+@media only screen and (max-width: 767px) {
+  #menu {
+    position: absolute;
+    width: 280%;
+    margin: -90px 0 0 -300%;
+    padding: 50px;
+    padding-top: 125px;
+  }
+
+  .menu-content-text {
+    margin-bottom: 15px;
+  }
+
+  .menu-content {        
+    margin-top: 70px;
+  }  
 }

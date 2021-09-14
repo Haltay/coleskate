@@ -1,16 +1,23 @@
 .product-title {
-    text-align: center;
-    margin-top: -2%;
-  }
-  
-  .product-title__top {
-      font-family: "Open Sans", sans-serif;
-      font-size: 17px;
-  }
-  
-  .product-title__bottom {
-      font-family: "Poppins", sans-serif;
-      color: #D1898B;
-      font-size: 37px;   
-      margin-top: 0;
-  }
+  text-align: center;
+  margin-top: -2%;
+}
+
+.product-title__top {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+}
+
+.product-title__bottom {
+  font-family: "Poppins", sans-serif;
+  color: #d1898b;
+  font-size: 37px;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) and (max-width: 1388px) {
+}
+
+@media only screen and (max-width: 767px) {
+ 
+}

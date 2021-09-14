@@ -21,6 +21,9 @@
   bottom: 70px;
 }
 
+
+/* Animation Link */
+
 .product-button {
   display: flex;
   align-items: center;
@@ -65,3 +68,13 @@
   color: black;    
 }
 
+
+
+@media only screen and (max-width: 768px) and (max-width: 1388px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .product-see-more {
+    margin: 5% auto -17% auto;
+  }
+}

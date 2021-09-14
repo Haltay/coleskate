@@ -14,28 +14,28 @@ const NavbarMenu = () => {
       </div>
 
       <div className="menu-content">
-        <div href="/" className="menu-content-text">
-          HOME
+        <div className="menu-content-text">
+          <a href="/">HOME</a>
         </div>
 
-        <div href="/" className="menu-content-text">
-          CLOTHING
+        <div className="menu-content-text">
+        <a href="/">CLOTHING</a>
         </div>
 
-        <div href="/" className="menu-content-text">
-          SKATEBOARDS
+        <div className="menu-content-text">
+        <a href="/">SKATEBOARDS</a>
         </div>
 
-        <div href="/" className="menu-content-text">
-          FOOTWEAR
+        <div className="menu-content-text">
+        <a href="/">FOOTWEAR</a>
         </div>
 
-        <div href="/" className="menu-content-text">
-          ACCESORIES
+        <div className="menu-content-text">
+        <a href="/">ACCESORIES</a>
         </div>
 
-        <div href="/" className="menu-content-text">
-          BLOG
+        <div className="menu-content-text">
+        <a href="/">BLOG</a>
         </div>
       </div>
       <div className="menu-bottom">

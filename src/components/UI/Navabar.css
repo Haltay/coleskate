@@ -10,7 +10,6 @@
   margin-top: 40px;
 }
 
-
 #menuToggle {
   margin-left: 90%;
   display: block;
@@ -21,8 +20,7 @@
   z-index: 1;
 
   -webkit-user-select: none;
-  user-select: none;
-  
+  user-select: none;  
 }
 
 .menu-hamburger {
@@ -81,9 +79,25 @@
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-
-
 #menuToggle input:checked ~ ul {
   transform: none;
 }
 
+
+@media only screen and (max-width: 768px) and (max-width: 1388px) {
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  #menuToggle {
+    margin-left: 72%;
+  }
+
+  .menu-logo-left {
+    margin-left: 30px;  
+    margin-top: 40px;
+  }
+  
+}
+  
