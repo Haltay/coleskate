@@ -7,6 +7,10 @@ import NavbarMenu from "../Navbar/NavbarMenu";
 import "./Navabar.css";
 
 const Navbar = () => {
+  const LockScroll = () => {
+    document.body.classList.toggle('lock-scroll');
+
+  }
   return (
     <div className="navbar">
       <div className="menu-logo-left">
@@ -14,7 +18,7 @@ const Navbar = () => {
       </div>
 
       <div id="menuToggle">
-        <input type="checkbox" className="menu-hamburger" />
+        <input type="checkbox" className="menu-hamburger" onClick={LockScroll} />
 
         <span></span>
         <span></span>

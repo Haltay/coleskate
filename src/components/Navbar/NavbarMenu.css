@@ -42,6 +42,7 @@
 
 .menu-content-text a:hover {
   height: 45px;
+  margin-bottom: 9px;
   display: inline-block;
   color: #d1898b;
   border-bottom: #d1898b 2px solid;
@@ -65,8 +66,8 @@
 @media only screen and (max-width: 767px) {
   #menu {
     position: absolute;
-    width: 280%;
-    margin: -90px 0 0 -300%;
+    width: 300%;
+    margin: -90px 0 0 -320%;
     padding: 50px;
     padding-top: 125px;
   }
