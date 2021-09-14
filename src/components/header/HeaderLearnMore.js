@@ -1,13 +1,15 @@
 import React from "react";
 
-import './HeaderLearnMore.css'
+import "./HeaderLearnMore.css";
 
 const LearnMoreHeader = () => {
   return (
     <div className="header-learn-more">
       <div className="header-more1"> </div>
       <div className="header-more2">
-        <a href="/">LEARN MORE</a>
+        <div className="header-button">
+          <a href="/">LEARN MORE</a>
+        </div>
       </div>
     </div>
   );

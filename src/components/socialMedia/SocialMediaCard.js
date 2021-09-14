@@ -15,7 +15,11 @@ const SocialMediaCard = () => {
             We got to sit with Daewon at the London premier for a chat on "whate
             eles is out there"
           </p>
-          <a href="/" className="social-media-link">READ MORE</a>
+          <div className="social-media-animation">
+            <a href="/" className="social-media-link">
+              READ MORE
+            </a>
+          </div>
         </div>
 
         <div className="social-media-image">
@@ -34,7 +38,11 @@ const SocialMediaCard = () => {
             Follow us on instagram for the latest tricks from the best skaters
             around the globe!
           </p>
-          <a href="/" className="social-media-link">FOLLOW US</a>
+          <div className="social-media-animation">
+            <a href="/" className="social-media-link">
+              FOLLOW US
+            </a>
+          </div>
         </div>
 
         <div className="social-media-image">

@@ -1,6 +1,7 @@
 .social-media {
   margin-top: 50px;
   margin-bottom: 30px;
+  z-index: 4;
 }
 
 .social-media-card {
@@ -8,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
 }
 
 .social-media-content {
@@ -32,12 +33,7 @@
 .social-media-link {
   color: #d1898b;
   font-size: 17px;
-  transition: transform 0.1s;
-  z-index: 8;
-}
-
-.social-media-link:hover {
-  transform: scale(1.2);
+  z-index: 10;
 }
 
 .social-media-image {
@@ -75,4 +71,43 @@
   width: 100%;
   height: 100%;
   padding-left: -50px;
+}
+
+/* Animation Links */
+
+.social-media-animation {
+  background-color: #ebebeb;
+  text-align: start;
+
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.social-media-animation {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.social-media-animation:after {
+  content: "»";
+  font-size: 30px;
+  position: absolute;
+  color: #d1898b;
+  opacity: 0;
+  top: -12px;
+  right: -40px;
+  transition: 0.5s;
+}
+
+.social-media-animation:hover {
+  padding-right: 12px;
+  padding-left: 8px;
+}
+
+.social-media-animation:hover:after {
+  opacity: 1;
+  right: 10px;
 }

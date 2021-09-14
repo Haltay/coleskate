@@ -1,11 +1,6 @@
 .newsletter-subscribe {
   width: 90%;
   margin: 8% auto 10% auto;
-  transition: transform 0.1s;
-}
-
-.newsletter-subscribe:hover {
-  transform: scale(1.2);
 }
 
 .newsletter-more1 {
@@ -27,11 +22,46 @@
   bottom: 70px;
 }
 
-.newsletter-more2 a {
+.newsletter-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 160px;
+  height: 36px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  z-index: 0;
+  background: rgba(255, 255, 255, 0);
+  overflow: hidden;
+}
+
+.newsletter-button::before {
+  content: "";
+  position: absolute;
+  top: 36px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #d1898b;
+  border-radius: 0 100% 0 0;
+  z-index: -1;
+  transition: all 0.3s;
+}
+
+.newsletter-button:hover::before {
+  top: 0px;
+  border-radius: 0;
+}
+
+.newsletter-button a {
   font-family: "Open Sans", sans-serif;
   color: #eedacb;
   font-size: 17px;
   text-decoration: none;
-  padding-left: 37px;
-  padding-top: 5px;
+}
+
+.newsletter-button:hover a {
+  color: black;
+  font-weight: 600;
 }

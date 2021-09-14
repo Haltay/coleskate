@@ -7,7 +7,9 @@ const NewsletterSubscribe = () => {
     <div className="newsletter-subscribe">
       <div className="newsletter-more1"> </div>
       <div className="newsletter-more2">
-        <a href="/">SUBSCRIBE</a>
+        <div className="newsletter-button">
+          <a href="/">SUBSCRIBE</a>
+        </div>
       </div>
     </div>
   );
