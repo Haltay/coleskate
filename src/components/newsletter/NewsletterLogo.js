@@ -1,6 +1,6 @@
 import React from "react";
 
-import LogoNewsletter from "../../assets/newsletter/cole_skateboard.png";
+import LogoNewsletter from "../../assets/header/cole_skateboard.png";
 import "./NewsletterLogo.css";
 
 const NewsletterLogo = () => {
