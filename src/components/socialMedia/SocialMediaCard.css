@@ -109,7 +109,36 @@
   right: 10px;
 }
 
-@media only screen and (max-width: 768px) and (max-width: 1388px) {
+@media only screen and (min-width: 768px) and (max-width: 1388px){
+  .social-media {
+    width: 90%;
+  }
+
+  .social-media-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+
+
+  .social-media-content h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .social-media-content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .social-media-image {
+    width: 45%
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -147,9 +176,11 @@
   .social-media-image {
     display: none;
   }
+
   .social-media-image__interview {
     max-height: 300px;
   }
+
   .social-media-image__instagram {
     max-height: 300px;
   }

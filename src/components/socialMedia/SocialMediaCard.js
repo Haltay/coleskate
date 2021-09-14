@@ -17,12 +17,12 @@ const SocialMediaCard = () => {
           </p>
 
           <div className="social-media-image-sm">
-          <img
-            src={ImageInterview}
-            className="social-media-image__interview"
-            alt="interview-daewon-song"
-          />
-        </div>
+            <img
+              src={ImageInterview}
+              className="social-media-image__interview"
+              alt="interview-daewon-song"
+            />
+          </div>
 
           <div className="social-media-animation">
             <a href="/" className="social-media-link">
@@ -49,12 +49,12 @@ const SocialMediaCard = () => {
           </p>
 
           <div className="social-media-image-sm">
-          <img
-            src={ImageInstagram}
-            className="social-media-image__instagram"
-            alt="interview-daewon-song"
-          />
-        </div>
+            <img
+              src={ImageInstagram}
+              className="social-media-image__instagram"
+              alt="interview-daewon-song"
+            />
+          </div>
 
           <div className="social-media-animation">
             <a href="/" className="social-media-link">

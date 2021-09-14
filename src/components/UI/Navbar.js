@@ -6,11 +6,11 @@ import NavbarMenu from "../Navbar/NavbarMenu";
 
 import "./Navabar.css";
 
-const Navbar = () => {
-  const LockScroll = () => {
+const Navbar = () => { 
+  const LockScroll = (e) => {
     document.body.classList.toggle('lock-scroll');
+  };
 
-  }
   return (
     <div className="navbar">
       <div className="menu-logo-left">

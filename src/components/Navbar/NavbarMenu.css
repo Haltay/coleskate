@@ -60,14 +60,32 @@
   color: #d1898b;
 }
 
-@media only screen and (max-width: 768px) and (max-width: 1388px) {
+@media only screen and (max-width: 1025px) and (max-width: 1388px) {
+  #menu {
+    position: absolute;
+    width: 1000px;
+    margin: -75px 0 0 -980px;
+    padding: 50px;
+    padding-top: 125px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (max-width: 1024px) {
+  #menu {
+    position: absolute;
+    width: 800%;
+    margin: -75px 0 0 -580%;
+    padding: 50px;
+    padding-top: 125px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   #menu {
     position: absolute;
     width: 300%;
-    margin: -90px 0 0 -320%;
+    height: 2700%;
+    margin: -90px 0 0 -310%;
     padding: 50px;
     padding-top: 125px;
   }
