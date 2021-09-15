@@ -9,13 +9,17 @@ const ImagesHeader = () => {
   return (
     <div className="header-images">
       <div className="header-logo">
-        <img src={Logo} className="header-logo__image" alt="logo-cole-skate" />
+        <img 
+          src={Logo} 
+          className="header-logo__image" 
+          alt="Cole Skate Logo"
+          />
       </div>
       <div className="header-company">
         <img
           src={Company}
           className="header-company__image"
-          alt="company-cole-skate"
+          alt="Cole Skate Logo Company"
         />
       </div>
     </div>

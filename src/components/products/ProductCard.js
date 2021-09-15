@@ -16,7 +16,7 @@ const ProductCard = () => {
             <img
               src={Deck}
               className="product-card__image"
-              alt="cole-skate-product-deck"
+              alt="Cole Skate Product Deck"
             />
           </div>
           <h3 className="product-card__description">
@@ -31,7 +31,7 @@ const ProductCard = () => {
             <img
               src={Hoodie}
               className="product-card__image"
-              alt="cole-skate-product-deck"
+              alt="Cole Skate Product Hoodie"
             />
           </div>
           <h3 className="product-card__description">
@@ -46,7 +46,7 @@ const ProductCard = () => {
             <img
               src={Wheels}
               className="product-card__image"
-              alt="cole-skate-product-deck"
+              alt="Cole Skate Product Wheels"
             />
           </div>
           <h3 className="product-card__description">
@@ -61,7 +61,7 @@ const ProductCard = () => {
             <img
               src={Shoes}
               className="product-card__image"
-              alt="cole-skate-product-deck"
+              alt="Cole Skate Product Shoes"
             />
           </div>
           <h3 className="product-card__description">

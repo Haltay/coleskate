@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
 
       <div id="menuToggle">
-        <input type="checkbox" className="menu-hamburger" onClick={LockScroll} />
+        <input type="checkbox" className="menu-hamburger" aria-label="Open/Close Menu" onClick={LockScroll} />
 
         <span></span>
         <span></span>

@@ -8,7 +8,7 @@ const LearnMoreHeader = () => {
       <div className="header-more1"> </div>
       <div className="header-more2">
         <div className="header-button">
-          <a href="/">LEARN MORE</a>
+          <a href="/" aria-label="More about Cole Skate">LEARN MORE</a>
         </div>
       </div>
     </div>

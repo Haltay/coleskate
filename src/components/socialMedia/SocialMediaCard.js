@@ -20,12 +20,12 @@ const SocialMediaCard = () => {
             <img
               src={ImageInterview}
               className="social-media-image__interview"
-              alt="interview-daewon-song"
+              alt="Daewon Song Interview"
             />
           </div>
 
           <div className="social-media-animation">
-            <a href="/" className="social-media-link">
+            <a href="/" className="social-media-link" aria-label="Daewon Song Interview">
               READ MORE
             </a>
           </div>
@@ -35,7 +35,7 @@ const SocialMediaCard = () => {
           <img
             src={ImageInterview}
             className="social-media-image__interview"
-            alt="interview-daewon-song"
+            alt="Daewon Song Interview"
           />
         </div>
       </div>
@@ -52,12 +52,12 @@ const SocialMediaCard = () => {
             <img
               src={ImageInstagram}
               className="social-media-image__instagram"
-              alt="interview-daewon-song"
+              alt="Cole Skate Product Instagram"
             />
           </div>
 
           <div className="social-media-animation">
-            <a href="/" className="social-media-link">
+            <a href="/" className="social-media-link" aria-label="Follow us on Instagram">
               FOLLOW US
             </a>
           </div>
@@ -67,7 +67,7 @@ const SocialMediaCard = () => {
           <img
             src={ImageInstagram}
             className="social-media-image__instagram"
-            alt="interview-daewon-song"
+            alt="Cole Skate Product Instagram"
           />
         </div>
       </div>

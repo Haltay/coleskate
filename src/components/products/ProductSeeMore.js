@@ -8,7 +8,7 @@ const ProductSeeMore = () => {
       <div className="product-more1"> </div>
       <div className="product-more2">
         <div className="product-button">
-          <a href="/">SEE MORE</a>
+          <a href="/" aria-label="More products">SEE MORE</a>
         </div>
       </div>
     </div>

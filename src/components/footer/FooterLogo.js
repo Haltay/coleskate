@@ -10,7 +10,7 @@ const FooterLogo = () => {
       <img
         src={FooterImage}
         className="footer-logo"
-        alt="footer-logo-cole-skate"
+        alt="Cole Skate Logo Company"
       />
     </div>
   );

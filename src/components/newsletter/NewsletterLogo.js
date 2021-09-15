@@ -9,7 +9,7 @@ const NewsletterLogo = () => {
       <img
         src={LogoNewsletter}
         className="newsletter__image"
-        alt="cole-skate-newsletter"
+        alt="Cole Skate Logo"
       />
     </div>
   );

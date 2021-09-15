@@ -8,7 +8,7 @@ const NavbarLogo = () => {
     <img
     src={MenuLogo}
     className="menu-logo__image"
-    alt="menu-logo-cole-skate"
+    alt="Cole Skate Logo"
   />
   </>
 };
