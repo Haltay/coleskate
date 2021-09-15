@@ -37,7 +37,12 @@
 .social-media-link {
   color: #d1898b;
   font-size: 17px;
-  z-index: 10;
+  z-index: 8;
+}
+
+.social-media-link:hover {
+  text-decoration: none;
+  color: #d1898b;
 }
 
 .social-media-image {
@@ -83,10 +88,10 @@
   display: inline-block;
   position: relative;
   text-align: start;
-  width: 120px;
+  width: 135px;
   background-color: #ebebeb;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .social-media-animation:after {
@@ -97,31 +102,34 @@
   opacity: 0;
   top: -12px;
   right: -40px;
+  transition: 0.4s;
 }
 
 .social-media-animation:hover {
   padding-right: 12px;
   padding-left: 8px;
+  color: #d1898b;
 }
 
 .social-media-animation:hover:after {
   opacity: 1;
   right: 10px;
+  text-decoration: none;
+  color: #d1898b;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1388px){
+@media only screen and (min-width: 768px) and (max-width: 1388px) {
   .social-media {
     width: 90%;
   }
 
-  .social-media-card{
+  .social-media-card {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 50px;
   }
-
 
   .social-media-content h2 {
     font-size: 36px;
@@ -137,7 +145,7 @@
   }
 
   .social-media-image {
-    width: 45%
+    width: 45%;
   }
 }
 
@@ -167,7 +175,7 @@
     text-align: center;
   }
 
-  .social-media-animation{
+  .social-media-animation {
     margin-top: 15px;
   }
 

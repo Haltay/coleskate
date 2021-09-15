@@ -20,7 +20,7 @@ const Navbar = () => {
 
       <div id="menuToggle" >
         <input type="checkbox" className="menu-hamburger" aria-label="Open/Close Menu" onClick={NoScroll} />
-
+        
         <span></span>
         <span></span>
         <span></span>

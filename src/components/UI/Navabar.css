@@ -1,7 +1,5 @@
-
 .navbar {
   position: fixed;
-  top: 0;
   z-index: 10;
 }
 
@@ -13,8 +11,7 @@
 #menuToggle {
   padding-top: 40px;
   padding-right: 50px;
-  display: block;
-  position: relative;  
+  position: relative;
 
   z-index: 1;
 
@@ -23,11 +20,10 @@
 }
 
 .menu-hamburger {
-  display: block;
   width: 40px;
   height: 32px;
   position: absolute;
-  
+
   cursor: pointer;
   opacity: 0;
   z-index: 2;
@@ -68,7 +64,6 @@
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #eedacb;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -84,27 +79,21 @@
   transform: none;
 }
 
-
 .no-scroll {
   overflow: hidden;
-  background-size: calc(100% - 17px)
 }
 
-
 @media only screen and (max-width: 768px) and (max-width: 1388px) {
-  
 }
 
 @media only screen and (max-width: 767px) {
-  .menu-logo-left { 
+  .menu-logo-left {
     padding-top: 20px;
-    padding-left: 15px;   
+    padding-left: 15px;
   }
-  
+
   #menuToggle {
     padding-top: 20px;
     padding-right: 15px;
   }
-
-
 }

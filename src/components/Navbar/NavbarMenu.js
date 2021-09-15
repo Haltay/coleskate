@@ -14,29 +14,29 @@ const NavbarMenu = () => {
       </div>
 
       <div className="menu-content">
-        <div className="menu-content-text">
+        <li className="menu-content-text">
           <a href="/">HOME</a>
-        </div>
+        </li>
 
-        <div className="menu-content-text">
+        <li className="menu-content-text">
         <a href="/">CLOTHING</a>
-        </div>
+        </li>
 
-        <div className="menu-content-text">
+        <li className="menu-content-text">
         <a href="/">SKATEBOARDS</a>
-        </div>
+        </li>
 
-        <div className="menu-content-text">
+        <li className="menu-content-text">
         <a href="/">FOOTWEAR</a>
-        </div>
+        </li>
 
-        <div className="menu-content-text">
+        <li className="menu-content-text">
         <a href="/">ACCESORIES</a>
-        </div>
+        </li>
 
-        <div className="menu-content-text">
+        <li className="menu-content-text">
         <a href="/">BLOG</a>
-        </div>
+        </li>
       </div>
       <div className="menu-bottom">
         <FooterListRight />
