@@ -10,7 +10,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className=" col-12 header">
       <ImagesHeader />
       <ContentHeader />
       <LearnMoreHeader />     

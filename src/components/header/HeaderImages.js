@@ -7,7 +7,7 @@ import "./HeaderImages.css";
 
 const ImagesHeader = () => {
   return (
-    <div className="header-images">
+    <div className=" col-2 header-images">
       <div className="header-logo">
         <img 
           src={Logo} 

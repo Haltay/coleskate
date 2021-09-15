@@ -1,7 +1,7 @@
 #menu {
   position: absolute;
-  width: 550px;
-  margin: -90px 0 0 -500px;
+  width: 800px;
+  margin: -90px 0 0 -700px;
   padding: 50px;
   padding-top: 125px;
 
@@ -42,7 +42,7 @@
 
 .menu-content-text a:hover {
   height: 45px;
-  margin-bottom: 9px;
+  margin-bottom: 10px;
   display: inline-block;
   color: #d1898b;
   border-bottom: #d1898b 2px solid;
@@ -60,41 +60,93 @@
   color: #d1898b;
 }
 
+.menu-bottom .footer-list a:hover{
+  color: #eedacb;
+}
+
+
 @media only screen and (max-width: 1025px) and (max-width: 1388px) {
   #menu {
     position: absolute;
-    width: 1000px;
-    margin: -75px 0 0 -980px;
+    width: 1200px;
+    margin: -75px 0 0 -1000px;
     padding: 50px;
     padding-top: 125px;
   }
-}
 
-@media only screen and (max-width: 768px) and (max-width: 1024px) {
-  #menu {
-    position: absolute;
-    width: 800%;
-    margin: -75px 0 0 -580%;
-    padding: 50px;
-    padding-top: 125px;
+  .menu-logo {
+    margin-left: 80px;   
+    margin-bottom: 0;
   }
-}
-
-@media only screen and (max-width: 767px) {
-  #menu {
-    position: absolute;
-    width: 300%;
-    height: 2700%;
-    margin: -90px 0 0 -310%;
-    padding: 50px;
-    padding-top: 125px;
-  }
+  
+   .menu-content {        
+    padding-top: 50px;
+    padding-left: 80px;
+  }  
 
   .menu-content-text {
     margin-bottom: 15px;
   }
 
+  .menu-bottom {
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-bottom: 1200px;
+  } 
+}
+
+@media only screen and (max-width: 768px) and (max-width: 1024px) {
+  #menu {
+    position: absolute;
+    width: 1000px;
+    height: 1200px;
+    margin: -75px 0 0 -700px;  
+    padding-top: 125px;    
+  }
+
+  .menu-logo {
+    margin-left: 60px;
+  }
+  
+   .menu-content {        
+    padding-top: 40px;
+    padding-left: 80px;
+  }  
+
+  .menu-content-text {
+    margin-bottom: 15px;
+  }
+
+  .menu-bottom {
+    margin-top: 40px;
+    margin-left: 80px;
+  } 
+
+}
+
+@media only screen and (max-width: 767px) {
+  #menu {
+    width: 1000px;
+    position: absolute;  
+    max-height: 767 px;    
+    margin: -90px 0 0 -400px;
+    padding-top: 125px    
+  } 
+
+  .menu-logo {
+    margin-left: 60px;
+  }
+  
   .menu-content {        
     margin-top: 70px;
+    margin-left: 10px;
   }  
+
+  .menu-content-text {
+    margin-bottom: 15px;
+  }
+
+  .menu-bottom {
+    margin-left: 80px;
+  }
 }

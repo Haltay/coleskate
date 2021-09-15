@@ -1,26 +1,25 @@
+
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%;
-  z-index: 10;  
+  z-index: 10;
 }
 
 .menu-logo-left {
-  margin-left: 50px;  
-  margin-top: 40px;
+  padding-left: 50px;
+  padding-top: 40px;
 }
 
 #menuToggle {
-  margin-left: 90%;
+  padding-top: 40px;
+  padding-right: 50px;
   display: block;
-  position: relative;
-  left: 50px;
-  top: -30px;
+  position: relative;  
 
   z-index: 1;
 
   -webkit-user-select: none;
-  user-select: none;  
+  user-select: none;
 }
 
 .menu-hamburger {
@@ -28,9 +27,7 @@
   width: 40px;
   height: 32px;
   position: absolute;
-  top: -7px;
-  left: -5px;
-
+  
   cursor: pointer;
   opacity: 0;
   z-index: 2;
@@ -54,6 +51,10 @@
 
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
     background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#menuToggle:hover span {
+  background: #eedacb;
 }
 
 #menuToggle span:first-child {
@@ -83,32 +84,27 @@
   transform: none;
 }
 
-.lock-scroll {
+
+.no-scroll {
   overflow: hidden;
+  background-size: calc(100% - 17px)
 }
 
 
 @media only screen and (max-width: 768px) and (max-width: 1388px) {
-  #menuToggle {
-    margin-left: 84%;
-  }
-
-  .menu-logo-left {
-    margin-left: 40px;  
-    margin-top: 40px;
-  }
+  
 }
-
 
 @media only screen and (max-width: 767px) {
+  .menu-logo-left { 
+    padding-top: 20px;
+    padding-left: 15px;   
+  }
+  
   #menuToggle {
-    margin-left: 72%;
+    padding-top: 20px;
+    padding-right: 15px;
   }
 
-  .menu-logo-left {
-    margin-left: 30px;  
-    margin-top: 40px;
-  }
-  
+
 }
-  

@@ -7,25 +7,26 @@ import NavbarMenu from "../Navbar/NavbarMenu";
 import "./Navabar.css";
 
 const Navbar = () => { 
-  const LockScroll = (e) => {
-    document.body.classList.toggle('lock-scroll');
+  const NoScroll = () => {
+    document.body.classList.toggle('no-scroll');
   };
 
   return (
-    <div className="navbar">
+    <div className="navbar col-12">
+    <div className="container-fluid">
       <div className="menu-logo-left">
         <NavbarLogo />
       </div>
 
-      <div id="menuToggle">
-        <input type="checkbox" className="menu-hamburger" aria-label="Open/Close Menu" onClick={LockScroll} />
+      <div id="menuToggle" >
+        <input type="checkbox" className="menu-hamburger" aria-label="Open/Close Menu" onClick={NoScroll} />
 
         <span></span>
         <span></span>
         <span></span>
         <NavbarMenu />
       </div>
-    </div>
+    </div></div>
   );
 };
 

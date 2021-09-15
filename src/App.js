@@ -10,7 +10,7 @@ import Navbar from "./components/UI/Navbar";
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <Navbar />
       <Header />
       <Products />
