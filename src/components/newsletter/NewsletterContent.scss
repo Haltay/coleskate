@@ -18,15 +18,20 @@
 }
 
 .newsletter-content__title {
-  font-size: 21px;
+  font-family: $font-OpenSans;
+  font-size: 17px;
+  letter-spacing: 1px;
 }
 
 .newsletter-content h2 {
+  font-family: $font-poppins;
   color: $color-primary;
-  font-size: 40px;
+  font-size: 37px;
+  letter-spacing: 4px;
 }
 
 .newsletter-content__text {
+  width: 120%;
   font-size: 29px;
 }
 
