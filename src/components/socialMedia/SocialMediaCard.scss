@@ -30,7 +30,6 @@
 .social-media-content p {
   font-family: $font-OpenSans;
   font-size: 17px;
-  text-align: justify;
 }
 
 .social-media-image-sm {
@@ -115,7 +114,7 @@
 
 .social-media-animation:hover:after {
   opacity: 1;
-  right: 10px;
+  right: -4px;
   text-decoration: none;
   color: $color-primary;
 }
