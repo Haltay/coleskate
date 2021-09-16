@@ -2,7 +2,7 @@ import React from "react";
 
 import SocialMediaCard from "../socialMedia/SocialMediaCard";
 
-import "./SocialMedia.css";
+import "./SocialMedia.scss";
 
 const SocialMedia = () => {
   return (

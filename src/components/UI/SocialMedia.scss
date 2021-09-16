@@ -1,5 +1,7 @@
+@import "../../sass/font.scss";
+
 .social-media-background {
-  background: #ebebeb;
+  background: $color-background-social-media;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

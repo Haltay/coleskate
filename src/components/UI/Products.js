@@ -6,7 +6,7 @@ import ProductCard from "../products/ProductCard";
 import ProductSeeMore from "../products/ProductSeeMore";
 import ProductWaveBottom from "../products/ProductWaveBottom";
 
-import "./Products.css";
+import "./Products.scss";
 
 const Products = () => {
   return (

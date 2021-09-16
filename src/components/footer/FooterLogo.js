@@ -2,7 +2,7 @@ import React from "react";
 
 import FooterImage from "../../assets/footer/cole_type_reverse.png";
 
-import "./FooterLogo.css";
+import "./FooterLogo.scss";
 
 const FooterLogo = () => {
   return (

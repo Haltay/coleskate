@@ -1,7 +1,8 @@
 import React from "react";
 
-import "./NewsletterContent.css";
 import NewsletterSubscribe from "./NewsletterSubscribe";
+
+import "./NewsletterContent.scss";
 
 const NewsletterContent = () => {
   return (

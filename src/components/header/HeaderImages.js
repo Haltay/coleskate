@@ -3,17 +3,15 @@ import React from "react";
 import Logo from "../../assets/header/cole_skateboard.png";
 import Company from "../../assets/header/skate_type.png";
 
-import "./HeaderImages.css";
+import "./HeaderImages.scss";
 
 const ImagesHeader = () => {
   return (
     <div className=" col-2 header-images">
       <div className="header-logo">
-        <img 
-          src={Logo} 
-          className="header-logo__image" 
-          alt="Cole Skate Logo"
-          />
+        <img src={Logo}
+        className="header-logo__image"
+        alt="Cole Skate Logo" />
       </div>
       <div className="header-company">
         <img

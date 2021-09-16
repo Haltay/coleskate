@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./ProductSeeMore.css";
+import "./ProductSeeMore.scss";
 
 const ProductSeeMore = () => {
   return (
@@ -8,7 +8,9 @@ const ProductSeeMore = () => {
       <div className="product-more1"> </div>
       <div className="product-more2">
         <div className="product-button">
-          <a href="/" aria-label="More products">SEE MORE</a>
+          <a href="/" aria-label="More products">
+            SEE MORE
+          </a>
         </div>
       </div>
     </div>

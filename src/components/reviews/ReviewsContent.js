@@ -2,7 +2,7 @@ import React from "react";
 
 import Stars from "../../assets/reviews/stars_1.png";
 
-import "./ReviewsContent.css";
+import "./ReviewsContent.scss";
 
 const ReviewsContent = () => {
   return (

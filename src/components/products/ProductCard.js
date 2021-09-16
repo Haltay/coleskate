@@ -5,7 +5,7 @@ import Hoodie from "../../assets/product/hoodie_1.jpg";
 import Wheels from "../../assets/product/wheels_1.jpg";
 import Shoes from "../../assets/product/shoes_1.jpg";
 
-import "./ProductCard.css";
+import "./ProductCard.scss";
 
 const ProductCard = () => {
   return (

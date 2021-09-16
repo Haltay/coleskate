@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./HeaderLearnMore.css";
+import "./HeaderLearnMore.scss";
 
 const LearnMoreHeader = () => {
   return (
@@ -8,7 +8,9 @@ const LearnMoreHeader = () => {
       <div className="header-more1"> </div>
       <div className="header-more2">
         <div className="header-button">
-          <a href="/" aria-label="More about Cole Skate">LEARN MORE</a>
+          <a href="/" aria-label="More about Cole Skate">
+            LEARN MORE
+          </a>
         </div>
       </div>
     </div>

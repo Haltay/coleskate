@@ -1,7 +1,8 @@
 import React from "react";
 
 import LogoNewsletter from "../../assets/header/cole_skateboard.png";
-import "./NewsletterLogo.css";
+
+import "./NewsletterLogo.scss";
 
 const NewsletterLogo = () => {
   return (

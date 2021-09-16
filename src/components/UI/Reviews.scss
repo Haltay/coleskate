@@ -1,0 +1,8 @@
+@import "../../sass/font.scss";
+@import "../../sass/div.scss";
+
+.reviews-card {
+  @include div-middle-column;
+  background-color: $color-background-review;
+  margin-bottom: -50px;
+}

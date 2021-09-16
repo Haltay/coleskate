@@ -1,0 +1,48 @@
+@import "../../sass/font.scss";
+@import "../../sass/button.scss";
+
+.header-learn-more {
+  margin: 4% auto 10% auto;
+}
+
+.header-more1 {
+  @include button-double-div;
+  top: -10px;
+  left: 15px;
+}
+
+.header-more2 {
+  @include button-double-div;
+  margin: 20px;
+  bottom: 70px;
+}
+
+.header-button {
+  @include button-inside;
+}
+
+.header-button::before {
+  @include button-double-animation-header-before;
+}
+
+.header-button:hover::before {
+  @include button-double-animation-header-before-hover;
+}
+
+.header-button a {
+  font-family: $font-OpenSans;
+  color: $color-secondary;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.header-button:hover a {
+  color: black;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+  .header-learn-more {
+    padding-top: 10%;
+  }
+}

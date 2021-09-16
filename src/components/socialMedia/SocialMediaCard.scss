@@ -1,3 +1,6 @@
+@import "../../sass/font.scss";
+@import "../../sass/div.scss";
+
 .social-media {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -18,14 +21,14 @@
 }
 
 .social-media-content h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: $font-poppins;
+  color: $color-primary;
   font-size: 37px;
-  color: #d1898b;
   letter-spacing: 3px;
 }
 
 .social-media-content p {
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-OpenSans;
   font-size: 17px;
   text-align: justify;
 }
@@ -35,14 +38,14 @@
 }
 
 .social-media-link {
-  color: #d1898b;
+  color: $color-primary;
   font-size: 17px;
   z-index: 8;
 }
 
 .social-media-link:hover {
   text-decoration: none;
-  color: #d1898b;
+  color: $color-primary;
 }
 
 .social-media-image {
@@ -89,7 +92,6 @@
   position: relative;
   text-align: start;
   width: 135px;
-  background-color: #ebebeb;
   cursor: pointer;
   transition: 0.4s;
 }
@@ -98,7 +100,7 @@
   content: "»";
   font-size: 30px;
   position: absolute;
-  color: #d1898b;
+  color: $color-primary;
   opacity: 0;
   top: -12px;
   right: -40px;
@@ -108,14 +110,14 @@
 .social-media-animation:hover {
   padding-right: 12px;
   padding-left: 8px;
-  color: #d1898b;
+  color: $color-primary;
 }
 
 .social-media-animation:hover:after {
   opacity: 1;
   right: 10px;
   text-decoration: none;
-  color: #d1898b;
+  color: $color-primary;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1388px) {
@@ -138,10 +140,8 @@
   }
 
   .social-media-content {
+    @include div-middle-column;
     width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .social-media-image {
@@ -151,11 +151,8 @@
 
 @media only screen and (max-width: 767px) {
   .social-media {
+    @include div-middle-column;
     width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 
   .social-media-card {

@@ -3,7 +3,7 @@ import React from "react";
 import NewsletterLogo from "../newsletter/NewsletterLogo";
 import NewsletterContent from "../newsletter/NewsletterContent";
 
-import "./Newsletter.css";
+import "./Newsletter.scss";
 
 const Newsletter = () => {
   return (

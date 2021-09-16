@@ -1,3 +1,6 @@
+@import "../../sass/font.scss";
+@import "../../sass/div.scss";
+
 .product-cards {
   display: flex;
   flex-wrap: wrap;
@@ -8,20 +11,17 @@
 
 .product-card-content {
   width: 20%;
-  margin-left: auto;
-  margin-right: auto;
-  transition: transform .1s;   
+  @include centring-object;
+  transition: transform 0.1s;
 }
 
 .product-card-content:hover {
-  transform: scale(1.1); 
-  
+  transform: scale(1.1);
 }
 
 .product-card-content:hover .products-card-image {
-box-shadow: 15px 11px 50px -15px #000000;
+  box-shadow: 15px 11px 50px -15px #000000;
 }
-
 
 .product-card-content a {
   text-decoration: none;
@@ -33,40 +33,34 @@ box-shadow: 15px 11px 50px -15px #000000;
 }
 
 .product-card__description {
-  font-family: "Poppins", sans-serif;
-  color: #d1898b;
+  font-family: $font-poppins;
+  color: $color-primary;
   font-size: 22px;
   font-weight: bolder;
   text-align: center;
   margin-top: 15%;
 }
 
-
-
 @media only screen and (max-width: 768px) and (max-width: 1388px) {
   .product-cards {
     display: flex;
-    
     justify-content: center;
-    
   }
 
   .product-card-content {
     width: 45%;
-    border-bottom: #d1898b 2px solid;
-    margin-bottom: 5%;  
+    border-bottom: $color-primary 2px solid;
+    margin-bottom: 5%;
   }
 
   .products-card-image {
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    @include centring-object;
   }
 
   .product-card__description {
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    @include centring-object;
     margin-top: 8%;
     margin-bottom: 10%;
   }
@@ -74,30 +68,24 @@ box-shadow: 15px 11px 50px -15px #000000;
 
 @media only screen and (max-width: 767px) {
   .product-cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+    @include div-middle-column;
   }
 
   .product-card-content {
     width: 100%;
-    border-bottom: #d1898b 2px solid;
-    margin-bottom: 10%;  
+    border-bottom: $color-primary 2px solid;
+    margin-bottom: 10%;
   }
 
   .products-card-image {
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    @include centring-object;
   }
 
   .product-card__description {
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    @include centring-object;
     margin-top: 8%;
     margin-bottom: 10%;
   }
 }
-

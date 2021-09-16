@@ -1,0 +1,40 @@
+//  Button double border
+
+@mixin button-double-div {
+  border: #d1898b 1px solid;
+  width: 166px;
+  height: 43px;
+  position: relative;
+}
+
+@mixin button-inside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 160px;
+  height: 36px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  z-index: 0;
+  background: rgba(255, 255, 255, 0);
+  overflow: hidden;
+}
+
+@mixin button-double-animation-header-before {
+  content: "";
+  position: absolute;
+  top: 36px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #d1898b;
+  border-radius: 0 100% 0 0;
+  z-index: -1;
+  transition: all 0.3s;
+}
+
+@mixin button-double-animation-header-before-hover {
+  top: 0px;
+  border-radius: 0;
+}

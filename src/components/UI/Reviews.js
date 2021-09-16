@@ -3,7 +3,7 @@ import React from "react";
 import ReviewsWaveTop from "../reviews/ReviewsWaveTop";
 import ReviewsContent from "../reviews/ReviewsContent";
 
-import "./Reviews.css";
+import "./Reviews.scss";
 
 const Reviews = () => {
   return (

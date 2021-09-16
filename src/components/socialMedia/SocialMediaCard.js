@@ -3,7 +3,7 @@ import React from "react";
 import ImageInterview from "../../assets/socialMedia/interview_image.jpg";
 import ImageInstagram from "../../assets/socialMedia/social_image.jpg";
 
-import "./SocialMediaCard.css";
+import "./SocialMediaCard.scss";
 
 const SocialMediaCard = () => {
   return (
@@ -25,7 +25,11 @@ const SocialMediaCard = () => {
           </div>
 
           <div className="social-media-animation">
-            <a href="/" className="social-media-link" aria-label="Daewon Song Interview">
+            <a
+              href="/"
+              className="social-media-link"
+              aria-label="Daewon Song Interview"
+            >
               READ MORE
             </a>
           </div>
@@ -57,7 +61,11 @@ const SocialMediaCard = () => {
           </div>
 
           <div className="social-media-animation">
-            <a href="/" className="social-media-link" aria-label="Follow us on Instagram">
+            <a
+              href="/"
+              className="social-media-link"
+              aria-label="Follow us on Instagram"
+            >
               FOLLOW US
             </a>
           </div>

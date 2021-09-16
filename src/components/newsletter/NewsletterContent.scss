@@ -1,3 +1,6 @@
+@import "../../sass/font.scss";
+@import "../../sass/div.scss";
+
 .newsletter-content-card {
   margin-left: 5%;
   margin-top: -10px;
@@ -11,7 +14,7 @@
 }
 
 .newsletter-content p {
-  color: #eedacb;
+  color: $color-secondary;
 }
 
 .newsletter-content__title {
@@ -19,7 +22,7 @@
 }
 
 .newsletter-content h2 {
-  color: #d1898b;
+  color: $color-primary;
   font-size: 40px;
 }
 
@@ -27,22 +30,18 @@
   font-size: 29px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1388px){
+@media only screen and (min-width: 768px) and (max-width: 1388px) {
   .newsletter-content-card {
-   margin-top: -35px;
+    margin-top: -35px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .newsletter-content-card {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include div-middle-column;
     text-align: center;
-    margin: 30px 0 0 0 ;
-
+    width: 100%;
+    margin: 30px 0 0 0;
   }
 
   .newsletter-content {

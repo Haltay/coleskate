@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./NewsletterSubscribe.css";
+import "./NewsletterSubscribe.scss";
 
 const NewsletterSubscribe = () => {
   return (
@@ -8,7 +8,9 @@ const NewsletterSubscribe = () => {
       <div className="newsletter-more1"> </div>
       <div className="newsletter-more2">
         <div className="newsletter-button">
-          <a href="/" aria-label="Follow us on Instagram">SUBSCRIBE</a>
+          <a href="/" aria-label="Follow us on Instagram">
+            SUBSCRIBE
+          </a>
         </div>
       </div>
     </div>

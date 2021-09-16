@@ -1,0 +1,51 @@
+@import "../../sass/font.scss";
+@import "../../sass/button.scss";
+
+.newsletter-subscribe {
+  width: 90%;
+  margin: 8% auto 10% auto;
+}
+
+.newsletter-more1 {
+  @include button-double-div;
+  top: -10px;
+  left: 15px;
+}
+
+.newsletter-more2 {
+  @include button-double-div;
+  bottom: 70px;
+  margin: 20px;
+}
+
+/* Animation Link */
+
+.newsletter-button {
+  @include button-inside;
+}
+
+.newsletter-button::before {
+  @include button-double-animation-header-before;
+}
+
+.newsletter-button:hover::before {
+  @include button-double-animation-header-before-hover;
+}
+
+.newsletter-button a {
+  font-family: $font-OpenSans;
+  color: $color-secondary;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.newsletter-button:hover a {
+  color: black;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+  .newsletter-subscribe {
+    display: inline-block;
+  }
+}

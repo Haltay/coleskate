@@ -1,0 +1,49 @@
+@import "../../sass/font.scss";
+@import "../../sass/button.scss";
+
+.product-see-more {
+  margin: 5% auto -2% auto;
+}
+
+.product-more1 {
+  @include button-double-div;
+  top: -10px;
+  left: 15px;
+}
+
+.product-more2 {
+  @include button-double-div;
+  margin: 20px;
+  bottom: 70px;
+}
+
+/* Animation Link */
+
+.product-button {
+  @include button-inside;
+}
+
+.product-button::before {
+  @include button-double-animation-header-before;
+}
+
+.product-button:hover::before {
+  @include button-double-animation-header-before-hover;
+}
+
+.product-button a {
+  font-family: $font-OpenSans;
+  color: $color-primary;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.product-button:hover a {
+  color: black;
+}
+
+@media only screen and (max-width: 767px) {
+  .product-see-more {
+    margin: 5% auto -17% auto;
+  }
+}

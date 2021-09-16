@@ -1,3 +1,5 @@
+@import "../../sass/font.scss";
+
 .navbar {
   position: fixed;
   z-index: 10;
@@ -50,7 +52,7 @@
 }
 
 #menuToggle:hover span {
-  background: #eedacb;
+  background: $color-secondary;
 }
 
 #menuToggle span:first-child {
@@ -81,9 +83,6 @@
 
 .no-scroll {
   overflow: hidden;
-}
-
-@media only screen and (max-width: 768px) and (max-width: 1388px) {
 }
 
 @media only screen and (max-width: 767px) {

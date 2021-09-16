@@ -3,14 +3,13 @@ import React from "react";
 import NavbarLogo from "./NavbarLogo";
 import FooterListRight from "../footer/FooterListRight";
 
-
-import "./NavbarMenu.css";
+import "./NavbarMenu.scss";
 
 const NavbarMenu = () => {
   return (
     <ul id="menu">
       <div className="menu-logo">
-      <NavbarLogo />
+        <NavbarLogo />
       </div>
 
       <div className="menu-content">
@@ -19,23 +18,23 @@ const NavbarMenu = () => {
         </li>
 
         <li className="menu-content-text">
-        <a href="/">CLOTHING</a>
+          <a href="/">CLOTHING</a>
         </li>
 
         <li className="menu-content-text">
-        <a href="/">SKATEBOARDS</a>
+          <a href="/">SKATEBOARDS</a>
         </li>
 
         <li className="menu-content-text">
-        <a href="/">FOOTWEAR</a>
+          <a href="/">FOOTWEAR</a>
         </li>
 
         <li className="menu-content-text">
-        <a href="/">ACCESORIES</a>
+          <a href="/">ACCESORIES</a>
         </li>
 
         <li className="menu-content-text">
-        <a href="/">BLOG</a>
+          <a href="/">BLOG</a>
         </li>
       </div>
       <div className="menu-bottom">

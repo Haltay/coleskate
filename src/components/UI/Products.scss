@@ -1,0 +1,8 @@
+@import "../../sass/font.scss";
+@import "../../sass/div.scss";
+
+.product {
+  background-color: $color-background-product;
+  @include div-middle-column;
+  margin-bottom: -10%;
+}
