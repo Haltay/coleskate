@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/coleskate/static/css/main.aa447949.chunk.css",
+    "main.js": "/coleskate/static/js/main.7a75554b.chunk.js",
+    "main.js.map": "/coleskate/static/js/main.7a75554b.chunk.js.map",
+    "runtime-main.js": "/coleskate/static/js/runtime-main.15a3c448.js",
+    "runtime-main.js.map": "/coleskate/static/js/runtime-main.15a3c448.js.map",
+    "static/js/2.5905d3bc.chunk.js": "/coleskate/static/js/2.5905d3bc.chunk.js",
+    "static/js/2.5905d3bc.chunk.js.map": "/coleskate/static/js/2.5905d3bc.chunk.js.map",
+    "static/js/3.4ff6a6cf.chunk.js": "/coleskate/static/js/3.4ff6a6cf.chunk.js",
+    "static/js/3.4ff6a6cf.chunk.js.map": "/coleskate/static/js/3.4ff6a6cf.chunk.js.map",
+    "index.html": "/coleskate/index.html",
+    "static/css/main.aa447949.chunk.css.map": "/coleskate/static/css/main.aa447949.chunk.css.map",
+    "static/js/2.5905d3bc.chunk.js.LICENSE.txt": "/coleskate/static/js/2.5905d3bc.chunk.js.LICENSE.txt",
+    "static/media/Header.scss": "/coleskate/static/media/background_image.e0eb3e5f.jpg",
+    "static/media/cole_skateboard.b5bda6a7.png": "/coleskate/static/media/cole_skateboard.b5bda6a7.png",
+    "static/media/deck_1.15c70753.jpg": "/coleskate/static/media/deck_1.15c70753.jpg",
+    "static/media/hoodie_1.528f04dc.jpg": "/coleskate/static/media/hoodie_1.528f04dc.jpg",
+    "static/media/interview_image.5ddb0840.jpg": "/coleskate/static/media/interview_image.5ddb0840.jpg",
+    "static/media/shoes_1.82c1b69d.jpg": "/coleskate/static/media/shoes_1.82c1b69d.jpg",
+    "static/media/skate_type.61f4475b.png": "/coleskate/static/media/skate_type.61f4475b.png",
+    "static/media/stars_1.1f692ff9.png": "/coleskate/static/media/stars_1.1f692ff9.png",
+    "static/media/wheels_1.f113dfdd.jpg": "/coleskate/static/media/wheels_1.f113dfdd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15a3c448.js",
+    "static/js/2.5905d3bc.chunk.js",
+    "static/css/main.aa447949.chunk.css",
+    "static/js/main.7a75554b.chunk.js"
+  ]
+}
